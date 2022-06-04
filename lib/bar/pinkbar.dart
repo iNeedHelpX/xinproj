@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:xinproj/colors/colours_list.dart';
 import 'package:xinproj/colors/pinkpurple_grad.dart';
 import 'package:xinproj/start/globalvars.dart';
@@ -6,28 +7,10 @@ import 'package:xinproj/start/globalvars.dart';
 //this is the app bar
 AppBar pinkBar(BuildContext context) {
   return AppBar(
-    leading: Padding(
-        padding: EdgeInsets.all(5),
-        child: IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () => scaffoldKey.currentState!.openDrawer(),
-        )),
+    //leading goes here
 
     actions: [
-      Padding(
-        padding: const EdgeInsets.only(right: 15),
-        child: IconButton(
-          icon: Icon(
-            Icons.shopping_bag_rounded,
-            color: Colors.purpleAccent[60],
-            size: 30,
-          ),
-          onPressed: () {
-            //add things here
-            // bottomSheet(context);
-          },
-        ),
-      ),
+      //on right hands side added buttons,
     ],
 
     flexibleSpace: ClipRRect(
@@ -57,12 +40,10 @@ AppBar pinkBar(BuildContext context) {
         children: [
           Text(
             "Swoon",
-            style: TextStyle(
-              fontFamily: 'blkros',
-              color: textgreyblue,
-              letterSpacing: 1.2,
-              fontWeight: FontWeight.w400,
-              fontSize: 80,
+            style: GoogleFonts.andadaPro(
+              fontSize: 22,
+              color: gold,
+              fontWeight: FontWeight.w500,
               shadows: [
                 Shadow(
                   offset: Offset(6.0, 8.0),
@@ -70,6 +51,20 @@ AppBar pinkBar(BuildContext context) {
                   color: Color.fromARGB(255, 25, 25, 25).withOpacity(0.5),
                 ),
               ],
+              // style: TextStyle(
+              //   fontFamily: 'blkros',
+              //   color: textgreyblue,
+              //   letterSpacing: 1.2,
+              //   fontWeight: FontWeight.w400,
+              //   fontSize: 80,
+              //   shadows: [
+              //     Shadow(
+              //       offset: Offset(6.0, 8.0),
+              //       blurRadius: 8.0,
+              //       color: Color.fromARGB(255, 25, 25, 25).withOpacity(0.5),
+              //     ),
+              //   ],
+              // ),
             ),
           ),
         ],
