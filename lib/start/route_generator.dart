@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:xinproj/pages/homepage.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -9,9 +10,9 @@ class RouteGenerator {
     switch (settings.name) {
       case '/':
         return GetPageRoute(
-            //go to home page
-            // page: () => Start(),
-            );
+          //go to home page
+          page: () => HomePage(),
+        );
       case '/checkout':
         return GetPageRoute(
             // page: () => CheckoutPage(),
