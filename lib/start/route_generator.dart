@@ -9,6 +9,7 @@ class RouteGenerator {
     switch (settings.name) {
       case '/':
         return GetPageRoute(
+            //go to home page
             // page: () => Start(),
             );
       case '/checkout':
