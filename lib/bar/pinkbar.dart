@@ -40,9 +40,9 @@ AppBar pinkBar(BuildContext context) {
         children: [
           Text(
             "Swoon",
-            style: GoogleFonts.andadaPro(
-              fontSize: 22,
-              color: gold,
+            style: GoogleFonts.atma(
+              fontSize: 50,
+              color: lightgoldbg,
               fontWeight: FontWeight.w500,
               shadows: [
                 Shadow(
@@ -51,20 +51,6 @@ AppBar pinkBar(BuildContext context) {
                   color: Color.fromARGB(255, 25, 25, 25).withOpacity(0.5),
                 ),
               ],
-              // style: TextStyle(
-              //   fontFamily: 'blkros',
-              //   color: textgreyblue,
-              //   letterSpacing: 1.2,
-              //   fontWeight: FontWeight.w400,
-              //   fontSize: 80,
-              //   shadows: [
-              //     Shadow(
-              //       offset: Offset(6.0, 8.0),
-              //       blurRadius: 8.0,
-              //       color: Color.fromARGB(255, 25, 25, 25).withOpacity(0.5),
-              //     ),
-              //   ],
-              // ),
             ),
           ),
         ],
