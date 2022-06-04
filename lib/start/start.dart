@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:xinproj/start/appframe.dart';
 import 'package:xinproj/start/route_generator.dart';
 
 class Start extends StatefulWidget {
@@ -20,7 +21,7 @@ class _StartState extends State<Start> {
         },
 
         //the frame for the dapp
-        // child: AppSetup(),
+        child: AppFrame(),
       ),
       initialRoute: '/',
       onGenerateRoute: RouteGenerator.generateRoute,
