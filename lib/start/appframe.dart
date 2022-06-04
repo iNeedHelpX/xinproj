@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:xinproj/bar/baricons.dart';
 import 'package:xinproj/bar/pinkbar.dart';
 import 'package:xinproj/colors/colours_list.dart';
+import 'package:xinproj/pages/grocerypage.dart';
+import 'package:xinproj/pages/homepage.dart';
+import 'package:xinproj/pages/shoppage.dart';
 import 'package:xinproj/start/globalvars.dart';
 
 class AppFrame extends StatefulWidget {
@@ -21,6 +24,9 @@ class _AppFrameState extends State<AppFrame> {
 //list of pages that one can navigate to using the navbar
   final _pageOptions = [
     //pages
+    ShoppingPage(),
+    HomePage(),
+    GroceryPage(),
   ];
   @override
   Widget build(BuildContext context) {
