@@ -12,7 +12,7 @@ class RouteGenerator {
       case '/':
         return GetPageRoute(
           //go to home page
-          page: () => HomePage(),
+          page: () => AppFrame(),
         );
       case '/checkout':
         return GetPageRoute(

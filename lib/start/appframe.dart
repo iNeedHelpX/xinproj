@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 import 'package:xinproj/bar/baricons.dart';
 import 'package:xinproj/bar/pinkbar.dart';
 import 'package:xinproj/colors/colours_list.dart';
