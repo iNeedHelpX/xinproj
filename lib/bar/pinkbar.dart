@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:xinproj/colors/colours_list.dart';
 import 'package:xinproj/colors/pinkpurple_grad.dart';
-import 'package:xinproj/start/globalvars.dart';
 
 //this is the app bar
 AppBar pinkBar(BuildContext context) {

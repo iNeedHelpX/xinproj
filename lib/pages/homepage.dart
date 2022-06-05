@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:xinproj/colors/colours_list.dart';
 
 //this page is for restaurants
 class HomePage extends StatefulWidget {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:xinproj/pages/homepage.dart';
 import 'package:xinproj/start/appframe.dart';
 import 'package:xinproj/start/route_generator.dart';
 
