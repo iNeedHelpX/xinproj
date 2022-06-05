@@ -38,7 +38,7 @@ AppBar pinkBar(BuildContext context) {
       child: Stack(
         children: [
           Text(
-            "Swoon",
+            "Swoon!",
             style: GoogleFonts.atma(
               fontSize: 50,
               color: lightgoldbg,
